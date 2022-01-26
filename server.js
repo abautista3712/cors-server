@@ -8,7 +8,8 @@ const port = process.env.PORT || 8080;
 corsProxy
   .createServer({
     originWhitelist: [
-      "http://localhost:3000",
+      //   "http://localhost:3000",
+      "https://stormy-taiga-82014.herokuapp.com",
       "https://stormy-taiga-82014.herokuapp.com/eat_out_content.html",
     ],
     requireHeader: ["origin", "x-requested-with"],
