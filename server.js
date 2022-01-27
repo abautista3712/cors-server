@@ -9,6 +9,7 @@ corsProxy
   .createServer({
     originWhitelist: [
       "http://localhost:3000",
+      "http://localhost:3001",
       "https://stormy-taiga-82014.herokuapp.com",
       "https://stormy-taiga-82014.herokuapp.com/eat_out_content.html",
     ],
