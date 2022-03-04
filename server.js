@@ -12,7 +12,7 @@ corsProxy
       "http://localhost:3001",
       "https://stormy-taiga-82014.herokuapp.com",
       "https://stormy-taiga-82014.herokuapp.com/eat_out_content.html",
-      "https://floating-tor-57469.herokuapp.com",
+      // "https://floating-tor-57469.herokuapp.com",
     ],
     requireHeader: ["origin", "x-requested-with"],
     removeHeaders: ["cookie", "cookie2"],
